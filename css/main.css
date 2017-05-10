@@ -1,0 +1,25 @@
+@media (min-width: 1201px) {
+  body {
+    background-color: darkorange;
+  }
+}
+
+@media (max-width: 1200px) {
+  
+  body {
+    background-color: lightgreen;
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: mediumpurple;
+  }
+}
+
+@media (max-width: 320px) {  
+  body {
+    background-color: deeppink;
+  }
+}
