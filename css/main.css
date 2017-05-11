@@ -2,6 +2,10 @@
   body {
     background-color: darkorange;
   }
+  p {
+  color: coral;
+  font-size: 60px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -9,13 +13,21 @@
   body {
     background-color: lightgreen;
   }
+   p {
+    color: green;
+    font-size: 45px;
+  }
 }
 
 
 @media (max-width: 768px) {
   body {
     background-color: mediumpurple;
-     font-size: 50%;
+     
+  }
+   p {
+    color: rebeccapurple;
+    font-size: 35px;
   }
   
 }
@@ -24,6 +36,10 @@
   body {
     background-color: deeppink;
     font-size: 30%;
+  }
+   p {
+    color: deeppink;
+    font-size: 25px;
   }
 }
 
@@ -42,11 +58,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  color: coral;
-  font-size: 60px;
 }
 
 
